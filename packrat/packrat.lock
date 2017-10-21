@@ -120,16 +120,21 @@ GithubSubdir: rtson
 
 Package: tercen
 Source: github
-Version: 0.3
-Hash: 241edcfa457c35c48a6c3c8e180420e2
-Requires: R6, dplyr, httr, jsonlite, purrr, rlang, rtson, tibble
+Version: 0.4.1
+Hash: 73f11d24c7b6398649f20fc454f481be
+Requires: R6, dplyr, httr, jsonlite, purrr, rlang, rtson, tibble, yaml
 GithubRepo: teRcen
 GithubUsername: tercen
-GithubRef: 0.3
-GithubSha1: 39174d8d066535e2485c48bf518848c3b8a24ce8
+GithubRef: 0.4.1
+GithubSha1: 2ba2b1ff924be21e6d64d4d97313117dc2115cea
 
 Package: tibble
 Source: CRAN
 Version: 1.3.4
 Hash: 3b72bdedb6c27fb216574ab9b15f2d43
 Requires: Rcpp, rlang
+
+Package: yaml
+Source: CRAN
+Version: 2.1.14
+Hash: c81230c3a7d9ba20607ad6b4331173d1

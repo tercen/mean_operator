@@ -18,6 +18,7 @@ devtools::install_github("tercen/teRcen", ref = "0.4.1", upgrade_dependencies = 
 ```R
 
 packrat::status()
+packrat::snapshot()
 
 packrat::bundle(include.src=FALSE, overwrite = TRUE, include.bundles=FALSE)
 
