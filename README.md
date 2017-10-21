@@ -11,7 +11,7 @@ packrat::init(options = list(
   load.external.packages.on.startup = FALSE))
   
 devtools::install_github("tercen/TSON", ref = "1.4-rtson", subdir="rtson", upgrade_dependencies = FALSE)
-devtools::install_github("tercen/teRcen", ref = "0.3", upgrade_dependencies = FALSE)
+devtools::install_github("tercen/teRcen", ref = "0.4.1", upgrade_dependencies = FALSE)
 
 ```
 
