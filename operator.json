@@ -2,7 +2,7 @@
   "name": "Mean",
   "description": "Compute the mean per cell",
   "authors": ["tercen"],
-  "categories": ["basic statistics"],
+  "tags": ["basic statistics"],
   "properties": [
   {
     "kind": "StringProperty",
