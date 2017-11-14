@@ -4,38 +4,7 @@
   "tags": ["basic statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/mean-operator"],
-  "properties": [
-  {
-    "kind": "StringProperty",
-    "name": "string-prop",
-    "defaultValue": "hello"
-  },
-  {
-    "kind": "DoubleProperty",
-    "name": "double-prop",
-    "defaultValue": 3.14
-  },
-  {
-    "kind": "BooleanProperty",
-    "name": "bool-prop",
-    "defaultValue": false
-  },
-  {
-    "kind": "BooleanProperty",
-    "name": "bool-prop3",
-    "defaultValue": false
-  },
-  {
-    "kind": "EnumeratedProperty",
-    "name": "enum-prop",
-    "defaultValue": "value1",
-    "values": [
-      "value1",
-      "value2",
-      "value3"
-    ]
-  }
-]
+  "properties": []
 }
 
 
