@@ -1,3 +1,4 @@
+quiet.package.installation: FALSE
 auto.snapshot: TRUE
 use.cache: TRUE
 print.banner.on.startup: auto

@@ -1,11 +1,8 @@
 PackratFormat: 1.4
 PackratVersion: 0.4.8.1
 RVersion: 3.3.2
-Repos: BioCsoft=https://bioconductor.org/packages/3.4/bioc,
-    BioCann=https://bioconductor.org/packages/3.4/data/annotation,
-    BioCexp=https://bioconductor.org/packages/3.4/data/experiment,
-    BioCextra=https://bioconductor.org/packages/3.4/extra,
-    CRAN=https://cran.rstudio.com/
+Repos: CRAN=https://cran.rstudio.com/,
+    CRANextra=http://www.stats.ox.ac.uk/pub/RWin
 
 Package: BH
 Source: CRAN
@@ -52,8 +49,8 @@ Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
 
 Package: glue
 Source: CRAN
-Version: 1.1.1
-Hash: dfd5a27768175ae51d08dc6beba1ef11
+Version: 1.2.0
+Hash: 381e42baedecc633c0e547a0c7ca9de7
 
 Package: httr
 Source: CRAN
@@ -78,8 +75,8 @@ Hash: 463550cf44fb6f0a2359368f42eebe62
 
 Package: openssl
 Source: CRAN
-Version: 0.9.7
-Hash: 225d43f64f60e8996d10efe15b381c66
+Version: 0.9.9
+Hash: 3858537ac10388a5db1687450908f257
 
 Package: packrat
 Source: CRAN
@@ -104,8 +101,8 @@ Requires: magrittr, rlang, tibble
 
 Package: rlang
 Source: CRAN
-Version: 0.1.2
-Hash: c17b638e3282aa222a47112d7a60bc66
+Version: 0.1.4
+Hash: fef2abdadbb8db061b9d37e7ca5cb0b4
 
 Package: rtson
 Source: github
