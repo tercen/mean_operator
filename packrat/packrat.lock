@@ -43,8 +43,8 @@ Package: dplyr
 Source: CRAN
 Version: 0.7.4
 Hash: 8f4e0074ac488385f084e27bf6f54d41
-Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
-    pkgconfig, plogr, rlang, tibble
+Requires: BH, R6, Rcpp, assertthat, glue, magrittr, pkgconfig, plogr,
+    rlang, bindrcpp, tibble
 
 Package: glue
 Source: CRAN
@@ -114,13 +114,13 @@ GithubSubdir: rtson
 
 Package: tercen
 Source: github
-Version: 0.4.6
-Hash: cd7b1afeb374804c7dc837a1361becf3
-Requires: R6, dplyr, httr, jsonlite, rtson, tibble, yaml
+Version: 0.4.9
+Hash: efcb28d52d5491170d0141308fc161f3
+Requires: R6, jsonlite, yaml, rtson, httr, tibble, dplyr
 GithubRepo: teRcen
 GithubUsername: tercen
-GithubRef: 0.4.6
-GithubSha1: 8b7317cbbb430d9b1532e38f9c8261dac1a2a7b6
+GithubRef: 0.4.9
+GithubSha1: 5a908e7757fdff17a75ad7f6bc8a5e8127114dba
 
 Package: tibble
 Source: CRAN
