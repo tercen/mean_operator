@@ -123,18 +123,10 @@ RemoteUsername: tercen
 RemoteSha: 94cc13e3d89e159d0a897c9a66fa38fc52136fb6
 
 Package: tercen
-Source: github
+Source: CRAN
 Version: 0.8.11
-Hash: cfa81ef3a6f78b5c90ed448ee229ca3a
+Hash: e7f64de642097882c163ffb52a3748c9
 Requires: R6, dplyr, mtercen, teRcenHttp, tibble, yaml
-GithubRepo: teRcen
-GithubUsername: tercen
-GithubRef: 0.8.11
-GithubSha1: 7253ebd02ca36297b6e442f2315a301a11631b50
-RemoteHost: api.github.com
-RemoteRepo: teRcen
-RemoteUsername: tercen
-RemoteSha: 7253ebd02ca36297b6e442f2315a301a11631b50
 
 Package: tibble
 Source: CRAN
