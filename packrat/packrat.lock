@@ -1,7 +1,7 @@
 PackratFormat: 1.4
-PackratVersion: 0.4.9.1
-RVersion: 3.4.4
-Repos: CRAN=https://cran.rstudio.com
+PackratVersion: 0.5.0
+RVersion: 3.5.3
+Repos: CRAN=https://cran.rstudio.com/
 
 Package: BH
 Source: CRAN
@@ -58,29 +58,22 @@ Hash: bdc4d48c3135e8f3b399536ddf160df4
 
 Package: mtercen
 Source: github
-Version: 1.0.5
-Hash: f9a660a67e9392677d1df2a35d0d08ef
+Version: 1.0.6
+Hash: 00170b02542a5ce6c52a9344e3620afb
 GithubRepo: mtercen
 GithubUsername: tercen
-GithubRef: 1.0.5
-GithubSha1: c7dd0c4c3a6d1bef1f1c4cd1724d3c647432b078
+GithubRef: 1.0.6
+GithubSha1: a31ea3cd5cf902ed392e7d10aa07cabf2e952723
 RemoteHost: api.github.com
 RemoteRepo: mtercen
 RemoteUsername: tercen
-RemoteSha: c7dd0c4c3a6d1bef1f1c4cd1724d3c647432b078
+RemoteRef: 1.0.6
+RemoteSha: a31ea3cd5cf902ed392e7d10aa07cabf2e952723
 
 Package: packrat
-Source: github
-Version: 0.4.9-1
-Hash: 2b4edf59823bbc14c9c70948a3b49926
-GithubRepo: packrat
-GithubUsername: rstudio
-GithubRef: v0.4.9-1
-GithubSha1: f98789177c02b3066144dfb8c39ea67d681fd73c
-RemoteHost: api.github.com
-RemoteRepo: packrat
-RemoteUsername: rstudio
-RemoteSha: f98789177c02b3066144dfb8c39ea67d681fd73c
+Source: CRAN
+Version: 0.5.0
+Hash: 498643e765d1442ba7b1160a1df3abf9
 
 Package: pillar
 Source: CRAN
@@ -106,35 +99,37 @@ Requires: magrittr, rlang
 
 Package: rlang
 Source: CRAN
-Version: 0.3.4
-Hash: 6a5220d1a973463418286038095d8c0b
+Version: 0.3.3
+Hash: 4dbc6ee05f1a6802b24608d8d38f6496
 
 Package: teRcenHttp
 Source: github
-Version: 1.0.6
-Hash: 1fb2f3fa4c2f7975cc30244adede3a43
+Version: 1.0.10
+Hash: 00736fe63489728ddf05f3082b23d894
 GithubRepo: teRcenHttp
 GithubUsername: tercen
-GithubRef: 1.0.6
-GithubSha1: 94cc13e3d89e159d0a897c9a66fa38fc52136fb6
+GithubRef: 1.0.10
+GithubSha1: 1da1be1dd817374278bf79db44c9ae2abfae820c
 RemoteHost: api.github.com
 RemoteRepo: teRcenHttp
 RemoteUsername: tercen
-RemoteSha: 94cc13e3d89e159d0a897c9a66fa38fc52136fb6
+RemoteRef: 1.0.10
+RemoteSha: 1da1be1dd817374278bf79db44c9ae2abfae820c
 
 Package: tercen
 Source: github
-Version: 0.8.12
-Hash: e257ec12ff00765da8a0b6537725cb90
+Version: 0.8.16
+Hash: d8e86aabb55ae08021589ee4e7d1b17b
 Requires: R6, dplyr, mtercen, teRcenHttp, tibble, yaml
 GithubRepo: teRcen
 GithubUsername: tercen
-GithubRef: 0.8.12
-GithubSha1: f2c69def5f6263540dc632bef1d259db30685ff7
+GithubRef: 0.8.16
+GithubSha1: 5fb1249bfb0029139b35b870988b2222abdee4aa
 RemoteHost: api.github.com
 RemoteRepo: teRcen
 RemoteUsername: tercen
-RemoteSha: f2c69def5f6263540dc632bef1d259db30685ff7
+RemoteRef: 0.8.16
+RemoteSha: 5fb1249bfb0029139b35b870988b2222abdee4aa
 
 Package: tibble
 Source: CRAN
