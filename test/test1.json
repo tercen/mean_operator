@@ -1,8 +1,9 @@
 {
   "kind": "OperatorUnitTest",
   "name": "test1",
+  "namespace": "test",
   "inputDataUri": "crabs-long.csv",
-  "outputDataUri": "",
+  "outputDataUri": ["result.csv"],
   "columns": ["sex"],
   "rows": ["variable"],
   "colors": [],
