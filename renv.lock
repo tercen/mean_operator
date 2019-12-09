@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://cran.rstudio.com"
+        "URL": "https://cloud.r-project.org"
       }
     ]
   },
@@ -145,35 +145,35 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.3.3",
+      "Version": "0.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ce26c85191896eaedbe41a17aa5380b3"
+      "Hash": "1367935e1052d25fd616368dea6d8bf5"
     },
     "teRcenHttp": {
       "Package": "teRcenHttp",
-      "Version": "1.0.10",
+      "Version": "1.0.12",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "teRcenHttp",
       "RemoteUsername": "tercen",
-      "RemoteRef": "1.0.10",
-      "RemoteSha": "1da1be1dd817374278bf79db44c9ae2abfae820c",
-      "Hash": "b6fdf13a3bdfd89bf4b17a73b0fb3e2f"
+      "RemoteRef": "1.0.12",
+      "RemoteSha": "98a2fa72440d4d6fb950f5d2dcbf703a38d070a6",
+      "Hash": "d567fd98aefd9ba5c23ac0dc25975526"
     },
     "tercen": {
       "Package": "tercen",
-      "Version": "0.9.1",
+      "Version": "0.9.3",
       "Source": "GitHub",
-      "Remotes": "tercen/teRcenHttp@1.0.10, tercen/mtercen@1.0.6",
+      "Remotes": "tercen/teRcenHttp@1.0.12, tercen/mtercen@1.0.6",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "teRcen",
       "RemoteUsername": "tercen",
-      "RemoteRef": "0.9.1",
-      "RemoteSha": "ebf13d282a5fa8641be0524344770477e97056fb",
-      "Hash": "0fe5e6d228acd2763e4d4ca8945c23df"
+      "RemoteRef": "0.9.3",
+      "RemoteSha": "e55062dbfa9f52070dc3b9e330c64f36e906a938",
+      "Hash": "4d3ace42e9bb6a9b4ee1c4b9640e4ae6"
     },
     "tibble": {
       "Package": "tibble",
