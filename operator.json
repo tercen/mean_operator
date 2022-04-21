@@ -1,6 +1,6 @@
 {
   "name": "Mean",
-  "description": "Compute the mean per cell",
+  "description": "Calculate the mathamatical average of the data points in a cell.",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/mean_operator"],
