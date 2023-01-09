@@ -10,7 +10,7 @@ ctx  %>%
   select(.y, .ci, .ri) %>% 
   lazy_dt() %>%
   group_by(.ci, .ri) %>%
-  summarise(mean = mean(.y)) %>%
+  summarise(value = mean(.y)) %>%
   as_tibble() %>%
   ctx$addNamespace() %>%
   ctx$save()
