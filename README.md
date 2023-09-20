@@ -6,13 +6,16 @@
 
 ##### Usage
 
-Data Projection|.
+Data Input|.
 ---|---
-`y-axis`        | is the input data for the mean, per cell 
+`y-axis`            | Measurement value, per cell 
+`x-axis` (optional) | Second measurement value, per cell 
 
 Data Output|.
 ---|---
-`value`          | numeric, mean of the input values
+`value`          | Mean of y values if no x axis is present in the input.
+`mean_y`          | Mean of y values if x axis is present in the input.
+`mean_x`          | Mean of x values if x axis is present in the input.
 
 ##### Details
 
