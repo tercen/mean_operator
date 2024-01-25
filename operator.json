@@ -1,6 +1,6 @@
 {
   "name": "Mean",
-  "description": "Calculate the mathematical average of the data points in a cell.",
+  "description": "Calculates the mean value of data points in a cell.",
   "tags": [
     "descriptive statistics"
   ],
