@@ -1,10 +1,14 @@
 {
   "name": "Mean",
   "description": "Calculate the mathematical average of the data points in a cell.",
-  "tags": ["basic statistics"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/mean_operator"],
+  "tags": [
+    "descriptive statistics"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/mean_operator"
+  ],
   "properties": []
 }
-
-
