@@ -10,5 +10,55 @@
   "urls": [
     "https://github.com/tercen/mean_operator"
   ],
-  "properties": []
+  "properties": [],
+  "operatorSpec" : {
+    "kind": "OperatorSpec",
+    "ontologyUri": "https://tercen.com/_ontology/tercen",
+    "ontologyVersion": "0.0.1",
+    "inputSpecs": [
+      {
+        "kind": "CrosstabSpec",
+        "metaFactors": [
+          {
+            "kind": "MetaFactor",
+            "name": "sample",
+            "type": "",
+            "description": "",
+            "ontologyMapping": "sample",
+            "crosstabMapping": "row",
+            "cardinality": "",
+            "factors": []
+          },
+          {
+            "kind": "MetaFactor",
+            "name": "variable",
+            "type": "",
+            "description": "",
+            "ontologyMapping": "variable",
+            "crosstabMapping": "column",
+            "cardinality": "",
+            "factors": []
+          }
+        ],
+        "axis": [
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "measurement",
+                "type": "numeric",
+                "description": "",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputSpecs": []
+  }
 }
