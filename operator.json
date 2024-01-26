@@ -1,5 +1,5 @@
 {
-  "name": "Mean",
+  "name": "Mean [with operator spec]",
   "description": "Calculate the mathematical average of the data points in a cell.",
   "tags": [
     "descriptive statistics"
