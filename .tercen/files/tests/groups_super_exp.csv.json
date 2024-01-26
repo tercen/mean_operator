@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "tests/groups_super_exp.csv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "groups_super_exp.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "0",
+ "dataUri": "22/61/226153d3c4ce6fee5724831ce138f6d836dd6b4818c14d49f93ebc83b46d8986",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

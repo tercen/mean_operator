@@ -1,0 +1,101 @@
+{
+ "kind": "TableSchema",
+ "id": "4cb64387fce9f6c13b191b37831e23eaf950eac5a7adf9a3c1ffb324cc589757",
+ "isDeleted": false,
+ "rev": "",
+ "description": "Measurement, Variable, Observation",
+ "name": "c03_simple.tsv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [
+  "data_designs",
+  "PCA",
+  "Log Cutoff",
+  "TSNE"
+ ],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "4cb64387fce9f6c13b191b37831e23eaf950eac5a7adf9a3c1ffb324cc589757"
+  },
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "6",
+ "nRows": 100,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "d6e01f72-1d2e-4f10-9b18-8dc729e22d4f",
+   "name": "Observation",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "aac38c02-76a2-4604-b76f-587c021ef737",
+   "name": "Variable",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "41d69ef1-9f99-4dd2-b8eb-87a9040d60dc",
+   "name": "Measurement",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/4c/b6/4cb64387fce9f6c13b191b37831e23eaf950eac5a7adf9a3c1ffb324cc589757",
+ "relation": {
+  "kind": "Relation",
+  "id": "3fee5d28-c35f-42a3-8de4-91221fbe731a"
+ }
+}
