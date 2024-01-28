@@ -118,7 +118,7 @@
             "metaFactors": [
               {
                 "kind": "MetaFactor",
-                "name": "measurement22",
+                "name": "measurement222",
                 "type": "numeric",
                 "description": "",
                 "ontologyMapping": "measurement",
