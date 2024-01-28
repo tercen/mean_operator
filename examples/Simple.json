@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "6",
+ "id": "7",
  "isDeleted": false,
  "rev": "",
  "description": "A basic Table and Data Step workflow. Press Play to get started.",
@@ -36,7 +36,7 @@
  "version": "",
  "isPublic": false,
  "projectId": "",
- "folderId": "7",
+ "folderId": "2",
  "links": [
   {
    "kind": "Link",

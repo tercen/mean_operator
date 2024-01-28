@@ -72,6 +72,63 @@
             ]
           }
         ]
+      },
+      {
+        "kind": "CrosstabSpec",
+        "metaFactors": [
+          {
+            "kind": "MetaFactor",
+            "name": "sample2",
+            "type": "",
+            "description": "",
+            "ontologyMapping": "sample",
+            "crosstabMapping": "row",
+            "cardinality": "",
+            "factors": []
+          },
+          {
+            "kind": "MetaFactor",
+            "name": "variable2",
+            "type": "",
+            "description": "",
+            "ontologyMapping": "variable",
+            "crosstabMapping": "column",
+            "cardinality": "",
+            "factors": []
+          }
+        ],
+        "axis": [
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "measurement2",
+                "type": "numeric",
+                "description": "",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              }
+            ]
+          },
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "measurement22",
+                "type": "numeric",
+                "description": "",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              }
+            ]
+          }
+        ]
       }
     ],
     "outputSpecs": []
