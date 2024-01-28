@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "5",
+ "id": "6",
  "isDeleted": false,
  "rev": "",
  "description": "A basic Table and Data Step workflow. Press Play to get started.",
@@ -36,7 +36,7 @@
  "version": "",
  "isPublic": false,
  "projectId": "",
- "folderId": "",
+ "folderId": "7",
  "links": [
   {
    "kind": "Link",
@@ -263,22 +263,43 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 250.0,
+     "cellSize": 59.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "",
+        "name": "Variable",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
+         "x": 80.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
          "x": 0.0,
          "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "Observation",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 110.0,
+         "y": 30.0
         },
         "topLeft": {
          "kind": "Point",
@@ -289,11 +310,11 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 1
+     "nRows": 100
     },
     "filters": {
      "kind": "Filters",
-     "removeNaN": true,
+     "removeNaN": false,
      "namedFilters": []
     },
     "operatorSettings": {
@@ -303,7 +324,7 @@
       "kind": "OperatorRef",
       "name": "Mean [with operator spec]",
       "version": "83c84109e68e0d1112538fd9ec84bc8b63cbd2ba",
-      "operatorId": "4",
+      "operatorId": "0",
       "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {
@@ -326,13 +347,7 @@
            "ontologyMapping": "sample",
            "crosstabMapping": "row",
            "cardinality": "",
-           "factors": [
-            {
-             "kind": "Factor",
-             "name": "Observation",
-             "type": "string"
-            }
-           ]
+           "factors": []
           },
           {
            "kind": "MetaFactor",
@@ -346,6 +361,11 @@
             {
              "kind": "Factor",
              "name": "Variable",
+             "type": "string"
+            },
+            {
+             "kind": "Factor",
+             "name": "Observation",
              "type": "string"
             }
            ]
@@ -386,21 +406,21 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 142.0,
+     "cellSize": 250.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "Variable",
+        "name": "",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 80.0,
+         "x": 0.0,
          "y": 0.0
         },
         "topLeft": {
@@ -412,13 +432,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 10
+     "nRows": 1
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "6bbc1aec-9ad6-48b0-91d7-c3cee55f3d45"
+    "id": "440cb984-3093-41c7-a4f2-1bdec61ffa52"
    },
    "parentDataStepId": ""
   }
