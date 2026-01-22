@@ -5,6 +5,7 @@
       "description": "Output varies based on X-axis presence",
       "alternatives": [
         {
+          "kind": "OutputAlternative",
           "condition": "No X-axis (hasNumericXAxis = false)",
           "joinSpec": {
             "kind": "OperatorJoinSpec",
@@ -38,6 +39,7 @@
           }
         },
         {
+          "kind": "OutputAlternative",
           "condition": "With X-axis (hasNumericXAxis = true)",
           "joinSpec": {
             "kind": "OperatorJoinSpec",
