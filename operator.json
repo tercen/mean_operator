@@ -24,7 +24,7 @@
             "name": "Sample",
             "type": "",
             "description": "Sample identifiers",
-            "ontologyMapping": "sample",
+            "ontologyMapping": "observation",
             "crosstabMapping": "row",
             "cardinality": "0..n",
             "factors": []
