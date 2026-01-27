@@ -69,6 +69,87 @@
         ]
       }
     ],
-    "outputSpecsV2": []
+    "outputSpecsV2": [
+      {
+        "kind": "ConditionalJoinSpec",
+        "description": "Output varies based on X-axis presence",
+        "alternatives": [
+          {
+            "kind": "OutputAlternative",
+            "condition": "No X-axis (hasNumericXAxis = false)",
+            "joinSpec": {
+              "kind": "OperatorJoinSpec",
+              "joinOperators": [
+                {
+                  "kind": "JoinOperator",
+                  "joinType": "left",
+                  "leftPair": {
+                    "kind": "ColumnPair",
+                    "lColumns": [
+                      "Sample",
+                      "Variable"
+                    ],
+                    "rColumns": [
+                      "Sample",
+                      "Variable"
+                    ]
+                  },
+                  "rightRelation": {
+                    "kind": "TableRelation",
+                    "attributes": [
+                      {
+                        "kind": "Attribute",
+                        "name": "value",
+                        "type": "double"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "kind": "OutputAlternative",
+            "condition": "With X-axis (hasNumericXAxis = true)",
+            "joinSpec": {
+              "kind": "OperatorJoinSpec",
+              "joinOperators": [
+                {
+                  "kind": "JoinOperator",
+                  "joinType": "left",
+                  "leftPair": {
+                    "kind": "ColumnPair",
+                    "lColumns": [
+                      "Sample",
+                      "Variable"
+                    ],
+                    "rColumns": [
+                      "Sample",
+                      "Variable"
+                    ]
+                  },
+                  "rightRelation": {
+                    "kind": "TableRelation",
+                    "attributes": [
+                      {
+                        "kind": "Attribute",
+                        "name": "mean_y",
+                        "type": "double"
+                      },
+                      {
+                        "kind": "Attribute",
+                        "name": "mean_x",
+                        "type": "double"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "refactorSuggestion": "Standardize to always output 'mean' column"
+      }
+    ]
   }
 }
