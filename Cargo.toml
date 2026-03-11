@@ -22,9 +22,9 @@ polars = { version = "0.51", default-features = false, features = ["lazy", "dtyp
 
 # Tercen SDK
 # Use local path for development:
-tercen-rs = { path = "../tercen-rs" }
+# tercen-rs = { path = "../tercen-rs" }
 # Use git dependency for CI/production:
-# tercen-rs = { git = "https://github.com/tercen/tercen-rs", branch = "main" }
+tercen-rs = { git = "https://github.com/tercen/tercen-rs", branch = "main" }
 
 [profile.release]
 opt-level = 3
