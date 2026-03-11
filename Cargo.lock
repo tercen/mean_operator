@@ -2887,7 +2887,7 @@ dependencies = [
 [[package]]
 name = "tercen-rs"
 version = "0.1.0"
-source = "git+https://github.com/tercen/tercen-rs?branch=main#3ef0ecd4501110a0eaaf412ff20bbfcaf40edaf3"
+source = "git+https://github.com/tercen/tercen-rs?branch=main#5fcbc04612f86e020a2cf4f89edd0ff37fba5fed"
 dependencies = [
  "base64",
  "futures",
