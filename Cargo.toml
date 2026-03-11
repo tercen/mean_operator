@@ -1,0 +1,33 @@
+[package]
+name = "mean_operator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tercen"]
+description = "Calculates the mean value of data points in a cell"
+license = "MIT"
+
+[[bin]]
+name = "mean_operator"
+path = "src/main.rs"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.49", features = ["rt-multi-thread", "macros"] }
+
+# gRPC (needed for task service types)
+tonic = { version = "0.14", features = ["transport", "tls-native-roots"] }
+
+# Data processing
+polars = { version = "0.51", default-features = false, features = ["lazy", "dtype-full"] }
+
+# Tercen SDK
+# Use local path for development:
+tercen-rs = { path = "../tercen-rs" }
+# Use git dependency for CI/production:
+# tercen-rs = { git = "https://github.com/tercen/tercen-rs", branch = "main" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true

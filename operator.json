@@ -10,6 +10,8 @@
   "urls": [
     "https://github.com/tercen/mean_operator"
   ],
+  "container": "ghcr.io/tercen/mean_operator",
+  "communicationProtocol": "grpc",
   "properties": [],
   "operatorSpec": {
     "kind": "OperatorSpec",
@@ -53,16 +55,6 @@
                 "crosstabMapping": "y",
                 "cardinality": "1",
                 "factors": []
-              },
-              {
-                "kind": "MetaFactor",
-                "name": "X-Axis Measurement (Optional)",
-                "type": "numeric",
-                "description": "Second measurement value, per cell (optional)",
-                "ontologyMapping": "measurement",
-                "crosstabMapping": "x",
-                "cardinality": "0..1",
-                "factors": []
               }
             ]
           }
@@ -71,84 +63,34 @@
     ],
     "outputSpecsV2": [
       {
-        "kind": "ConditionalJoinSpec",
-        "description": "Output varies based on X-axis presence",
-        "alternatives": [
+        "kind": "OperatorJoinSpec",
+        "joinOperators": [
           {
-            "kind": "OutputAlternative",
-            "condition": "No X-axis (hasNumericXAxis = false)",
-            "joinSpec": {
-              "kind": "OperatorJoinSpec",
-              "joinOperators": [
-                {
-                  "kind": "JoinOperator",
-                  "joinType": "left",
-                  "leftPair": {
-                    "kind": "ColumnPair",
-                    "lColumns": [
-                      "Sample",
-                      "Variable"
-                    ],
-                    "rColumns": [
-                      "Sample",
-                      "Variable"
-                    ]
-                  },
-                  "rightRelation": {
-                    "kind": "TableRelation",
-                    "attributes": [
-                      {
-                        "kind": "Attribute",
-                        "name": "value",
-                        "type": "double"
-                      }
-                    ]
-                  }
-                }
+            "kind": "JoinOperator",
+            "joinType": "left",
+            "leftPair": {
+              "kind": "ColumnPair",
+              "lColumns": [
+                "Sample",
+                "Variable"
+              ],
+              "rColumns": [
+                "Sample",
+                "Variable"
               ]
-            }
-          },
-          {
-            "kind": "OutputAlternative",
-            "condition": "With X-axis (hasNumericXAxis = true)",
-            "joinSpec": {
-              "kind": "OperatorJoinSpec",
-              "joinOperators": [
+            },
+            "rightRelation": {
+              "kind": "TableRelation",
+              "attributes": [
                 {
-                  "kind": "JoinOperator",
-                  "joinType": "left",
-                  "leftPair": {
-                    "kind": "ColumnPair",
-                    "lColumns": [
-                      "Sample",
-                      "Variable"
-                    ],
-                    "rColumns": [
-                      "Sample",
-                      "Variable"
-                    ]
-                  },
-                  "rightRelation": {
-                    "kind": "TableRelation",
-                    "attributes": [
-                      {
-                        "kind": "Attribute",
-                        "name": "mean_y",
-                        "type": "double"
-                      },
-                      {
-                        "kind": "Attribute",
-                        "name": "mean_x",
-                        "type": "double"
-                      }
-                    ]
-                  }
+                  "kind": "Attribute",
+                  "name": "value",
+                  "type": "double"
                 }
               ]
             }
           }
-        ],
-        "refactorSuggestion": "Standardize to always output 'mean' column"
+        ]
       }
     ]
   }
