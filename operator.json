@@ -47,7 +47,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Y-Axis Measurement",
-                "type": "numeric",
+                "type": "double",
                 "description": "Measurement value, per cell",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
@@ -57,7 +57,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "X-Axis Measurement (Optional)",
-                "type": "numeric",
+                "type": "double",
                 "description": "Second measurement value, per cell (optional)",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "x",
